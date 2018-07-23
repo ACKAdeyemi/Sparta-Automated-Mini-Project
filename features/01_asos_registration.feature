@@ -5,4 +5,4 @@ Feature: ASOS Registration
     Given I access the ASOS Register page
       And I input valid details for the join form
     When I click Join ASOS
-    Then I should see my first name appear when I click the account icon
+    Then I should see my first name appear when I click the account icon after successful registration

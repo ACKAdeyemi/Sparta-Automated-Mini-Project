@@ -4,6 +4,8 @@ class ASOS_Account
   include Capybara::DSL
 
   # constants
+  USER_FIRSTNAME_TEXT = '._2T5vKuV'
+  ACCOUNT_ICON = '._3TGKcxB'
   ACCOUNT_OPTIONS_CLASS_LINK = '._1k1reGo'
 
   def confirm_user_first_name

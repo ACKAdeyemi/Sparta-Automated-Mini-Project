@@ -1,6 +1,8 @@
 require 'capybara/dsl'
+require_relative './pages/asos_account.rb'
 require_relative './pages/asos_homepage.rb'
 require_relative './pages/asos_registration.rb'
+require_relative './pages/asos_signin.rb'
 require_relative './helpers/temp_email.rb'
 require_relative './helpers/tab_control.rb'
 
@@ -20,6 +22,10 @@ class ASOS_Site
 
   def asos_registration
     ASOS_Registration.new
+  end
+
+  def asos_signin
+    ASOS_SignIn.new
   end
 
   def tab_control
