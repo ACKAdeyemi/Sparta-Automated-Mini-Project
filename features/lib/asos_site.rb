@@ -28,6 +28,10 @@ class ASOS_Site
     ASOS_SignIn.new
   end
 
+  def login_fail_methods
+  LoginFailMethod.new
+end
+
   def tab_control
     TabControl.new
   end
